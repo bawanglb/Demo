@@ -24,8 +24,7 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, "textview click", Toast.LENGTH_SHORT).show();
             }
         });
-
-        Log.d(TAG, "onCreate: ");
+        System.out.println("oncreate ");
 
     }
 
