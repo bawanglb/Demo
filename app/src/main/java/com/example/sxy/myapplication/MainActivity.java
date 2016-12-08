@@ -25,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         System.out.println("oncreate ");
+        System.out.println("oncreate ");
+
 
     }
 
@@ -32,5 +34,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
         Log.d(TAG, "onDestroy: ");
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
     }
 }
